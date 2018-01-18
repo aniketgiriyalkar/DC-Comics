@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<style>
+body
+{ background-image:url("JL1.jpg");
+background-repeat:repeat-x;
+background-attachment:fixed; }
+</style>
+<title>Form</title>
+<script language="JavaScript" type="text/javascript">
+function validateReqFields(thisform)
+{
+ var userName=thisform.uname.value;
+ var age=thisform.age.value;
+ if(userName==null||userName=="")
+ {
+   alert("Enter the user name");
+	 thisform.uname.focus();
+	 return false;
+ }
+ if(age==null||age=="")
+ {
+   alert("Enter the age");
+	 thisform.age.focus();
+	 return false;
+ }
+ return true;
+}
+</script>
+</head>
+<body><center>
+<form action="Submit.html" onsubmit="return validateReqFields(this)" method="Post">
+<font color="grey" size="16">
+User Name:<input type="text" name="uname" /><font color="red">*</font><br>
+Age:     <input type="text" name="age"/><font color="red">*</font><br>
+Comments:<input type="text" value="Please enter your feedback." size="50"/><br><br>
+Favourite section:<br></font>
+<font color="grey" size="16">
+<input type="checkbox" value="Main Page"/>Main Page<br>
+<input type="checkbox" value="Batman"/>Batman<br>
+<input type="checkbox" value="The Flash"/>The Flash<br>
+<input type="checkbox" value="Superman"/>Superman<br>
+<input type="checkbox" value="Green Arrow"/>Green Arrow<br>
+<input type="checkbox" value="Iron Man"/>Iron Man<br></font>
+<input type="submit" value="submit"/>
+</form>
+<hr />
+<a href="DC.html">Jump to DC COMICS main page</a><hr />
+<hr /></center>
+</body>
+</html>

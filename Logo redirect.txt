@@ -1,0 +1,10 @@
+<hr />
+
+<a href="Batman.html"><h2>1. Batman</h2><img alt="Batman-logo (15K)" src="Batman-logo.jpg" height="100" width="100" /></a><br />
+
+<a href="The Flash.html"><h2>2. The Flash</h2><img alt="Flash-logo (21K)" src="Flash-logo.jpg" height="100" width="100" /></a><br />
+
+<a href="GreenArrow.html"><h2>3. Green Arrow</h2><img alt="green_arrow-logo (4K)" src="green_arrow-logo.png" height="100" width="100" /></a>
+<br />
+<a href="Superman.html"><h2>4. Superman</h2><img alt="photo (37K)" src="photo.jpg" height="100" width="100" /></a>
+<br /><hr />
